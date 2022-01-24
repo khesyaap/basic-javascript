@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+
+        const name = "Khesya Amel";
+        const firstName = "IDN";
+        const middleName = "Boarding";
+        const lastName = "School";
+
+        const Template= `Name : ${name}`;
+        console.info(Template);
+        const school = `School : ${firstName} ${middleName} ${lastName}`;
+        // const school = "School : "+ " " + firstName + " " + middleName + " " + lastName;
+        console.info(school);
+        // console.info(school2);
+
+        const nilai = 50;
+        const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
+        console.info(template2);
+
+        const multiline = `IDN Boarding School
+        terletak di Jonggol
+        Saya amat teramat senang sekolah disini
+        Ini adalah sekolah terlopp`;
+
+    document.writeln(multiline);
+    
+    </script>
+</body>
+</html>
